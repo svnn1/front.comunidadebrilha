@@ -1,7 +1,7 @@
 import axios from "axios";
 
-import { API_URL } from "@/modules/support/helpers/constants";
-import { auth, expiresAuth } from "@/modules/auth/state/auth";
+import { API_URL } from "@/support/helpers/constants";
+import { auth, expiresAuth } from "@/auth/state/auth";
 import router from "../router";
 
 export const api = axios.create({

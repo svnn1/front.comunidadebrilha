@@ -1,6 +1,6 @@
 import { computed } from "vue";
 import { useStorage } from "@vueuse/core";
-import { JWT_TOKEN } from "@/modules/support/helpers/constants";
+import { JWT_TOKEN } from "@/support/helpers/constants";
 
 interface IAuthState {
   access_token: string;

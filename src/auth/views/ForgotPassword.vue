@@ -179,7 +179,7 @@
 <script lang="ts">
 import { defineComponent, ref } from "vue";
 
-import router from "@/modules/core/router";
+import router from "@/core/router";
 
 import { forgotPassword } from "../services";
 
