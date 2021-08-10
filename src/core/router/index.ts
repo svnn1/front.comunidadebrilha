@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 
-import authRoutes from "@/modules/auth/routes";
-import { userAuthenticated } from "@/modules/auth/state/auth";
+import authRoutes from "@/auth/routes";
+import { userAuthenticated } from "@/auth/state/auth";
 
 const routes: Array<RouteRecordRaw> = [...authRoutes];
 

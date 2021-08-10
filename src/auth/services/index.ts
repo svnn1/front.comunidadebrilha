@@ -1,4 +1,4 @@
-import { api } from "@/modules/core/api";
+import { api } from "@/core/api";
 import { IAuth, IForgotPassword } from "./types";
 
 export const getAuthenticatedUser = async (): Promise<unknown> => {
